@@ -29,18 +29,18 @@ public class Union {
             }
         }
 
-        while (i<m){
+        while (i<n){
             if(i==0||a[i]!=a[i-1]){
                 System.out.println(a[i]);
-                i++;
             }
+            i++;
         }
 
-        while (j<n){
+        while (j<m){
             if(j==0||b[j]!=b[j-1]){
                 System.out.println(b[j]);
-                j++;
             }
+            j++;
         }
     }
 }

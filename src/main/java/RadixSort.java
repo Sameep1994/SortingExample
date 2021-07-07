@@ -21,6 +21,7 @@ public class RadixSort {
     {
         int output[] = new int[n]; // output array
         int i;
+        //for each digit 0-9
         int count[] = new int[10];
         Arrays.fill(count,0);
 
@@ -47,7 +48,7 @@ public class RadixSort {
     }
 
     // The main function to that sorts arr[] of size n using
-    // Radix Sort
+    // Radix Sort, sort according to least to most significant digits, eg- units,tens, hunderds place
     static void radixsort(int arr[], int n)
     {
         // Find the maximum number to know number of digits
